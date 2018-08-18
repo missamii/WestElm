@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+.topnav {
+  /* background-color: green; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+topnav * {
+  display: inline;
+}
+
+.topnav li {
+  margin: 20px;
+}
+
+.topnav li a {
+  color: black;
+  text-decoration: none;
+}
